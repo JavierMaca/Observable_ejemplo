@@ -1,0 +1,18 @@
+<h2>HOME PAGES</h2>
+
+<button (click)="cambiarNombre()" class="btn btn-primary m-4">cambiar mensaje</button>
+
+<button *ngIf="mostrar" (click)="segundoCambio()" class="btn btn-secondary">cambio de nuevo</button>
+
+<h3>Numero: {{numero$ | async}}</h3>
+
+
+<hr>
+
+<app-hijo></app-hijo>
+
+<hr>
+
+<button (click)="cambiarNum()" class="btn btn-primary m-4">cambiar numero</button>
+
+<button (click)="cambiarNumN()" class="btn btn-secondary">cambiar de nuevo</button>
